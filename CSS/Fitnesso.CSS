@@ -1,0 +1,282 @@
+body {
+    background-color: white;
+    color: black;
+    padding: 0px;
+    margin: 0;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header div ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header div ul {
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+    padding: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+li a:hover {
+    opacity: 100%;
+    font-weight: bold;
+}
+
+#start {
+    padding: 0;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    margin-right: 0;
+    margin-left: 270px;
+    background-color: black;
+    font-weight: bold;
+    opacity: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+#fitnesso {
+    font-weight: bold;
+    font-style: italic;
+    opacity: 100%;
+    padding: 0;
+    margin-right: 300px;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+
+#img1 {
+    position: relative;
+    display: inline-block;
+    width: 91%;
+    height: 80vh;
+    margin-left: 60px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: 70px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:
+        2px 2px 4px rgba(255, 255, 255, 0.5),
+        -2px -2px 4px rgba(255, 255, 255, 0.5),
+        2px -2px 4px rgba(255, 255, 255, 0.5),
+        -2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.overlay h4 {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow:
+        2px 2px 4px rgba(255, 255, 255, 0.5),
+        -2px -2px 4px rgba(255, 255, 255, 0.5),
+        2px -2px 4px rgba(253, 250, 250, 0.5),
+        -2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.overlay a {
+    display: inline-block;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.overlay a:hover {
+    background-color: white;
+    color: black;
+}
+
+#goals {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#goals h6 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+#goals h1 {
+    margin-top: -20px;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.container2 {
+    display: flex;
+    width: 80%;
+    height: 425px;
+    margin: 150px 10%;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.img2 {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container2 h5,
+p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+.container2 a {
+    display: inline-block;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: underline;
+}
+
+.container2 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-top: 50px;
+}
+
+.container3 h1 {
+    margin-bottom: 20px;
+}
+
+.container3 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: #e0e0e0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.container3 .content h3 {
+    margin-bottom: 10px;
+}
+
+.container3 .content p {
+    margin-bottom: 10px;
+}
+
+.container3 .content a#pro {
+    color: #007bff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .container3 {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.footer {
+    background-color: #e0e0e0;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 100px;
+    border-top: 1px solid #e6dcdc;
+}
+
+.footer h1 {
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer a#start-link {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer a#start-link:hover {
+    background-color: rgb(190, 172, 172);
+    color: black;
+}
+
+#contactus {
+    color: black;
+}
